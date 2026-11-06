@@ -1,0 +1,86 @@
+rosbag2_bagfile_information:
+  compression_format: ''
+  compression_mode: ''
+  custom_data: null
+  duration:
+    nanoseconds: 135000000
+  files:
+  - duration:
+      nanoseconds: 135000000
+    message_count: 16
+    path: bag.db3
+    starting_time:
+      nanoseconds_since_epoch: 1000000000
+  message_count: 16
+  relative_file_paths:
+  - bag.db3
+  ros_distro: rosbags
+  starting_time:
+    nanoseconds_since_epoch: 1000000000
+  storage_identifier: sqlite3
+  topics_with_message_count:
+  - message_count: 2
+    topic_metadata:
+      name: /marvin/left/joint_states
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /marvin/left/command
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /marvin/right/joint_states
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /marvin/right/command
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /sharpa/left/joint_states
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /sharpa/left/command
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /sharpa/right/joint_states
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  - message_count: 2
+    topic_metadata:
+      name: /sharpa/right/command
+      offered_qos_profiles: []
+      serialization_format: cdr
+      type: sensor_msgs/msg/JointState
+      type_description_hash:
+        RIHS01_a13ee3a330e346c9d87b5aa18d24e11690752bd33a0350f11c5882bc9179260e
+  version: 9
