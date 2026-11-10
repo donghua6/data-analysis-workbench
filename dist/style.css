@@ -12,3 +12,47 @@
 .chart-svg{touch-action:pan-y;cursor:ew-resize;user-select:none}.chart-svg.scrubbing{touch-action:none;cursor:grabbing}.cursor-layer{pointer-events:none}.chart-svg.scrubbing .cursor-layer line{stroke:#438a62;stroke-width:1.5}
 
 .wordmark{display:flex;flex:none;min-width:0;flex-direction:column;align-items:flex-start;gap:8px;letter-spacing:0;overflow:hidden}.wordmark .brand-logo{display:block;width:100%;height:auto;max-width:206px}.wordmark>div{font-size:18px;font-weight:600}.rail .brand{font:600 23px/40px "Microsoft YaHei",sans-serif;margin:20px 0 40px}.workspace{margin-top:20px}
+
+.joint-check input{flex-shrink:0}
+.joint-note{
+  display:inline-block;
+  max-width:100%;
+  color:#426657;
+  font:11px/1.45 'DM Sans','PingFang SC','Microsoft YaHei',sans-serif;
+}
+
+.episode-diagnosis{
+  margin:-16px 0 22px;
+  padding:16px 20px;
+  background:#fff;
+  border:1px solid var(--border);
+  border-left:3px solid #86948d;
+  border-radius:7px;
+}
+.episode-diagnosis h2{margin:0 0 8px;font-size:14px}
+.episode-diagnosis p{margin:6px 0}
+.episode-diagnosis[data-result="pass"]{border-left-color:#218666}
+.episode-diagnosis[data-result="warning"]{border-left-color:#b3422b}
+.episode-diagnosis[data-result="incomplete"]{border-left-color:#a56a17}
+.diagnosis-overview{display:flex;flex-wrap:wrap;gap:4px 12px;align-items:baseline}
+[data-result="pass"] #diagnosisVerdict{color:#216c53}
+[data-result="warning"] #diagnosisVerdict{color:#a53726}
+[data-result="incomplete"] #diagnosisVerdict{color:#855415}
+#diagnosisRules{font-size:11px;color:#57675e}
+#diagnosisDetails summary{margin-top:9px;cursor:pointer}
+#diagnosisJoints{max-height:180px;overflow:auto;margin:8px 0 0;padding-left:20px}
+#diagnosisJoints li{padding:3px 0;overflow-wrap:anywhere}
+.diagnosis-progress,.diagnosis-loading .diagnosis-result{display:none}
+.diagnosis-loading .diagnosis-progress{display:block}
+
+.diagnosis-joint-link{
+  padding:0;
+  color:#216c53;
+  font-weight:600;
+  text-align:left;
+  text-decoration:underline;
+  text-underline-offset:2px;
+  overflow-wrap:anywhere;
+}
+.chart-card{scroll-margin-top:16px}
+.chart-card:focus{outline:2px solid var(--green);outline-offset:2px}
