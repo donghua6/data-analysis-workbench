@@ -56,3 +56,5 @@
 }
 .chart-card{scroll-margin-top:16px}
 .chart-card:focus{outline:2px solid var(--green);outline-offset:2px}
+
+.chart-head .chart-joint-note{font:11px/1.45 'DM Sans','PingFang SC','Microsoft YaHei',sans-serif;color:#426657}
